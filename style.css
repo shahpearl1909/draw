@@ -1,0 +1,38 @@
+body{
+    background: plum;
+}
+h1{
+background-color: rgb(166, 83, 170);
+color:white;
+}
+#sketch{
+    float:right;
+    background-color: rgb(109, 71, 145);
+    font-size: 25px;
+    border-radius: 15px;
+}
+p{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+canvas{
+border-color: black;
+border-radius: 20px;
+margin-top:15px;
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes example{
+from {box-shadow:1px 1px 40px rgb(100, 61, 141)}
+to {box-shadow: 1px 1px 40px black}
+}
+.clear{
+    background-color:rgb(132, 92, 201);
+    color:white;
+    border-radius: 15px;
+    font-size: 25px;
+}
+#timer{
+    float:right;
+}
